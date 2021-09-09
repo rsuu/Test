@@ -18,4 +18,4 @@ sudo ninja aseprite
 
 sudo strip bin/aseprite
 
-sudo tar -acf /tmp/aseprite.tar aseprite
+sudo tar -acf /tmp/aseprite.tar bin
