@@ -5,9 +5,9 @@ cd aseprite
 mkdir build
 cd build
 
-sudo wget https://github.com/aseprite/skia/releases/download/m81-b607b32047/Skia-Linux-Release-x64.zip
 mkdir ./skia
 cd ./skia
+sudo wget https://github.com/aseprite/skia/releases/download/m81-b607b32047/Skia-Linux-Release-x64.zip
 sudo unzip *zip
 cd ../
 
