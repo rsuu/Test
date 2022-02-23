@@ -1,7 +1,7 @@
 #!/usr/bin/bash
 
 aseprite() {
-    bash aseprite.sh
+    bash build/aseprite.sh
 }
 
 aseprite
