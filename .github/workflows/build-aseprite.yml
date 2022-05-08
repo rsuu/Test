@@ -17,7 +17,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Build
-      run: bash build.sh
+      run: bash build/aseprite.sh
     - name : Upload artifact
       uses: actions/upload-artifact@master
       with:
