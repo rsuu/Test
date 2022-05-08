@@ -23,6 +23,6 @@ sudo cmake \
     ..
 
 sudo ninja aseprite
-
 sudo strip bin/aseprite
+
 sudo tar -acf /tmp/aseprite.tar.zst bin
