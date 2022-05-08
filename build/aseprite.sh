@@ -1,3 +1,5 @@
+sudo apt-get install -y g++ cmake ninja-build libx11-dev libxcursor-dev libxi-dev libgl1-mesa-dev libfontconfig1-dev
+
 build-skia() {
     mkdir $HOME/deps
     cd $HOME/deps
@@ -15,8 +17,6 @@ build-skia() {
 
 build-aseprite() {
     #SkiaVersion="https://github.com/aseprite/skia/releases/download/m96-2f1f21b8a9/Skia-Linux-Release-x64.zip"
-
-    sudo apt-get install -y g++ cmake ninja-build libx11-dev libxcursor-dev libxi-dev libgl1-mesa-dev libfontconfig1-dev
 
     sudo git clone --recursive --depth 1 https://github.com/aseprite/aseprite.git
 
